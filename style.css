@@ -21,15 +21,82 @@ header .navigation li a {
 }
 
 #about{
-    background-image: url(/content/aboutbackground.jpg);
+    
+    margin-bottom: 1em;
+}
+#about .title{
+    padding-top: 6rem;
+    padding-bottom: 30%;
+    background-image: url("Images/aboutbackground.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 2em;
+}
+
+#about h1 {
+    background-color: antiquewhite;
+    text-align: center;
+    max-width: 50%;
+    margin: 0px auto;
+    border-radius: 1em;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#about .mission{
+    background-color: bisque;
+    padding: 1em 0;
+    border-radius: 1em;
+    text-align: center;
+    min-width: 10%;
+    max-width: 50%;
+    margin: 1em auto;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 18px;
+}
+
+.AboutBack{
+    background-image: url("Images/michael-dziedzic-qDG7XKJLKbs-unsplash.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    height: 50em;
     display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+    align-items: center;
+    border-radius: 2em;
 }
-#about h1 {
-    padding: 20%;
-    text-align: center;
+
+.aboutsec{
+    background-color: rgb(199, 185, 171);
+    font-family: cursive;
+    border-radius: 1em;
+    width: 75%;
+    margin: 0 auto;
+    
+    
+}
+
+.aboutsec p{
+    padding: 0.5em 2em;
+}
+
+#Contact{
+    background-color: rgb(218, 185, 143);
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    border-radius: 2em;
+    padding: 1em 0;
+    margin-top: 1em;
+}
+
+#Contact p{
+    font-weight: bold;
+    margin: 0 1em;
+}
+
+#Contact .contactsec{
+    margin-left: auto;
+    font-weight: lighter;
+
 }
