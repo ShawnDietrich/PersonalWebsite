@@ -80,7 +80,9 @@ header .navigation li a {
     padding: 0.5em 2em;
 }
 
+
 #Contact{
+    
     background-color: rgb(218, 185, 143);
     display: flex;
     flex-direction: column;
